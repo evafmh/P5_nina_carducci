@@ -1,0 +1,7 @@
+# Config file for GitHub Pages
+defaults:
+  # Caching
+  - scope:
+      path: "assets/**/*.{jpg,jpeg,gif,png,svg,ico,webp}"
+    values:
+      cache-control: "max-age=31536000"
